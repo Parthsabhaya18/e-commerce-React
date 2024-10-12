@@ -1,0 +1,83 @@
+.Adminpage{
+    height: 100vh;
+    width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url("https://img.freepik.com/free-photo/arrangement-black-friday-shopping-carts-with-copy-space_23-2148667047.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.Adminpage form>h1{
+    padding: 8px 0px;
+    color: rgb(78, 74, 69);
+    margin-bottom: 30px;
+}
+.nav{
+    height: 45px;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(168, 212, 213);
+}
+.arrow{
+    position: relative;
+    left: 25px;
+    top: 27px;
+    color:rgb(104, 92, 115) ;
+}
+header{
+    position: relative;
+    bottom: 15px;
+}
+.nav li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 50px;
+    color: rgb(104, 92, 115);
+    
+}
+
+.Adminpage form{
+    height: 65vh;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(155, 196, 233);
+    border: none;
+    border-radius: 20px;
+}
+.Adminpage form >input{
+    height: 40px;
+    width: 281px;
+    margin: 5px; 
+    padding-left: 10px; 
+    border: none;  
+    border-radius: 10px;    
+}
+.Adminpage .eye{
+    position: relative;
+    top: 38px;
+    left: 120px;
+}
+.Adminpage form > button{
+    height: 35px;
+    width: 280px;
+    margin-top: 30px;   
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(77, 77, 218) ;
+    color: rgb(240, 234, 234);
+}
+.SignUppage{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+}
+.SignUppage a{
+    margin-left: 5px;
+}

@@ -1,0 +1,31 @@
+.page img{
+    height: 200px;
+    width: 250px;   
+}
+.page{
+    height: 100vh;
+    width: 100vw;
+    background-image: url("https://img.freepik.com/free-vector/gradient-network-connection-background_23-2148879890.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 160px 0px;
+    display: flex;
+    justify-content:space-evenly;
+}
+.page:hover{
+    box-shadow: 2px 2px 30px grey; 
+    transition: .2s;
+    overflow: hidden;
+}
+.page a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-decoration: none;
+    color: rgb(196, 178, 178);
+    font-family: cursive;
+}
+.page img:hover{
+    transform: scale(1.2);
+    transition: .2s;
+}

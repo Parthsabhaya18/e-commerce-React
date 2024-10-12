@@ -1,0 +1,76 @@
+.signUp{
+    height: 100vh;
+    width: 100vw;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   background-image: url("https://img.freepik.com/free-photo/arrangement-black-friday-shopping-carts-with-copy-space_23-2148667047.jpg");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+.signUp form>h1{
+    padding: 8px 0px;
+    color: rgb(78, 74, 69);
+}
+.signUp{
+    height: 45px;
+    width: 100vw;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgb(168, 212, 213);
+}
+.arrow{
+    position: relative;
+    left: 25px;
+    top: 27px;
+    color:rgb(104, 92, 115) ;
+}
+header{
+    position: relative;
+    bottom: 15px;
+}
+.nav li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 50px;
+    color: rgb(104, 92, 115);
+    
+}
+
+.signUp form{
+    height: 75vh;
+    width: 350px;
+    display: flex;
+    margin-top: 550px;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(155, 196, 233);
+    border: none;
+    border-radius: 20px;
+}
+.signUp form >input{
+    height: 45px;
+    width: 281px;
+    margin: 8px 0px; 
+    padding-left: 10px; 
+    border: none;  
+    border-radius: 10px;    
+}
+.signUp .eye{
+    position: relative;
+    bottom: 103px;
+    left: 120px;
+}
+.signUp form > button{
+    height: 35px;
+    width: 280px;
+    margin-top: 10px;   
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(77, 77, 218) ;
+    color: rgb(240, 234, 234);
+}
