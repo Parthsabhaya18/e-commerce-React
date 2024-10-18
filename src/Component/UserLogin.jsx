@@ -39,6 +39,7 @@ const UserLogin = () => {
       {!showpswd?<FaRegEye className='eye' onClick={show}/>:<FaRegEyeSlash className='eye' onClick={show} />}
       <input type={showpswd?"password":"text"} onChange={(e)=>{setPassword(e.target.value)}} value={password} placeholder='Password' required />
       <button onClick={login}>LOGIN</button>
+      <Link to='/signUp'><a>Sign Up Now</a></Link>
    </form>
    </div>
   )
