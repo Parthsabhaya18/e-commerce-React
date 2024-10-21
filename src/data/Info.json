@@ -1,25 +1,62 @@
 {
-    "Admin":[
-        {
-            "id":1,
-            "email":"abc@gmail.com",
-            "password":"abc123",
-            "number":1234,
-            "name":"abcbhai"
-        },
-        {
-            "id":2,
-            "email":"xyz@gmail.com",
-            "password":"xyz123",
-            "number":4321,
-            "name":"xyzbhai"
-        },
-        {
-            "id":3,
-            "email":"pnz@gmail.com",
-            "password":"pnz123",
-            "number":1894,
-            "name":"pnzbhai"
-        }
-    ]
+  "Admin": [
+    {
+      "id": "1",
+      "email": "abc@gmail.com",
+      "password": "abc123",
+      "number": 1234,
+      "name": "abcbhai"
+    },
+    {
+      "id": "2",
+      "email": "xyz@gmail.com",
+      "password": "xyz123",
+      "number": 4321,
+      "name": "xyzbhai"
+    },
+    {
+      "id": "3",
+      "email": "pnz@gmail.com",
+      "password": "pnz123",
+      "number": 1894,
+      "name": "pnzbhai"
+    },
+    {
+      "id": "4811",
+      "email": "parthsabhaya7@gmail.com",
+      "password": "parthsabhaya@gmail.com",
+      "number": "8000993067",
+      "name": "parth"
+    },
+    {
+      "id": "0b72",
+      "email": "bhargav@gmail.com",
+      "password": "123",
+      "number": "87685768578",
+      "name": "bhargav"
+    }
+  ],
+  "User": [
+    {
+      "id": "1",
+      "email": "parth@gmail.com",
+      "password": "parth123",
+      "number": 1234,
+      "name": "abcbhai"
+    },
+    {
+      "id": "2",
+      "email": "chirag@gmail.com",
+      "password": "chirag123",
+      "number": 4321,
+      "name": "xyzbhai"
+    },
+    {
+      "id": "3",
+      "email": "bhargav@gmail.com",
+      "password": "bhargav123",
+      "number": 1894,
+      "name": "pnzbhai"
+    }
+  ]
 }

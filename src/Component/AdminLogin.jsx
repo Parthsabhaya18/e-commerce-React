@@ -9,12 +9,13 @@ const AdminLogin = () => {
 
   let [username, setusername] = useState("");
   let [password, setPassword] = useState("");
+  
   let [showpswd, setPswd] = useState(false);
 
   let [admin, setAdmin] = useState([]);
   useEffect(() => {
     async function fetchAdmin() {
-      let data = await fetch('http://localhost:4000/Admin')
+      let data = await fetch('http://localhost:2000/Admin')
       let res = await data.json();
       setAdmin(res)
     }
@@ -26,7 +27,7 @@ const AdminLogin = () => {
 
   function login() {
     let val = admin.filter((x) => {
-      return (x.email == username && x.password == password)
+      return (x.email === username && x.password === password)
     })
     if (val.length > 0) {
       alert("Login Succesfully")
@@ -58,7 +59,7 @@ const AdminLogin = () => {
         <button onClick={login}>LOGIN</button>
         <div className='SignUppage'>
           <p>New To Account ?</p>
-          <Link to='/signUp'><a>Sign Up Now</a></Link>
+          <Link to='/signUp'>Sign Up Now</Link>
         </div>
       </form>
     </div>
